@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large model files
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Image files (keep only small samples)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Output directories
+output/
+results/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SpeciesNet cache
+.cache/
+models/
+
+# Training outputs
+training_logs/
+*.pth
+
+# Data files
+*.json
+*.csv
+*.xlsx
+*.xls
+
+# Keep only essential config files
+!requirements.txt
+!README.md
+!.gitignore 
